@@ -49,6 +49,8 @@ public class GoogleApiUtil {
      * @return An authorized Credential object.
      * @throws IOException If the credentials.json file cannot be found.
      */
+
+
     private static Credential getCredentials(final NetHttpTransport HTTP_TRANSPORT)
             throws IOException {
         // Load client secrets.
@@ -105,6 +107,6 @@ public class GoogleApiUtil {
      */
 
 
-    public static void main(String... args) throws IOException, GeneralSecurityException {
-    }
+//    public static void main(String... args) throws IOException, GeneralSecurityException {
+//    }
 }
